@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white
+}
+
+.page-container {
+    width: 90%;
+    margin: auto;
+}
+
+.error {
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+    margin-top: 20px;
+}

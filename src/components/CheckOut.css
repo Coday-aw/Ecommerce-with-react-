@@ -1,0 +1,52 @@
+.check-out-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 600px;
+    gap: 20px;
+
+}
+
+.shopping-cart-container {
+    flex: 0.6;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.shipping {
+    flex: 0.4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 350px;
+}
+
+.shipping h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shipping form {
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.shipping form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+
+    margin: 20px;
+}
